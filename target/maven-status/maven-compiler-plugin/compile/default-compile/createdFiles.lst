@@ -1,0 +1,13 @@
+ro\chatapp\message\MessageService.class
+ro\chatapp\Application.class
+ro\chatapp\message\ChatController.class
+ro\chatapp\entities\User.class
+ro\chatapp\login\LoginService.class
+ro\chatapp\login\LoginPage.class
+ro\chatapp\message\UserRepository.class
+ro\chatapp\socketprogramming\WebSocketConfig.class
+ro\chatapp\database\MySQLConnection.class
+ro\chatapp\socketprogramming\WebSocketChatController.class
+ro\chatapp\message\ChatMessage.class
+ro\chatapp\entities\Message.class
+ro\chatapp\message\MessageRepository.class

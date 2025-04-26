@@ -1,0 +1,98 @@
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 40rem;
+    padding: 3rem;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+}
+
+.login-title {
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input {
+    witdh: 100%;
+    padding: 1rem;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+}
+
+.btn-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-align: center;
+    flex: 1;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background: cornflowerblue;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: royalblue;
+}
+
+.btn-secondary {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.btn-secondary:hover {
+    background-color: #e0e0e0;
+}
+
+.error-message {
+    color: #8b0000;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: #ffebee;
+    border-radius: 0.4rem;
+    text-align: center;
+    font-size: 1.4rem;
+}
